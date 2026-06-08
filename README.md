@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Zentrivo — Job Application Tracker SaaS
 
-## Getting Started
+Zentrivo is a full-stack SaaS web application that helps job seekers track applications, manage interviews, and optimize resumes using AI-powered ATS scoring.
 
-First, run the development server:
+---
+
+## 🌐 Live Demo
+
+* 🚀 Live App: https://job-application-tracker-saa-s.vercel.app
+  
+---
+
+## 🚀 Features
+
+* 📌 Track job applications with Kanban board (drag & drop)
+* 📅 Schedule and manage interviews
+* 📄 Upload resumes and documents
+* 🤖 AI-powered ATS resume scoring (Groq LLM)
+* 📊 Analytics dashboard (applications, offers, success rate)
+* 🔐 Authentication (Email + Google OAuth)
+* ⚡ Real-time UI with modern design
+
+---
+
+## 🛠️ Tech Stack
+
+* **Frontend:** Next.js 15, TypeScript, Tailwind CSS, shadcn/ui
+* **Backend:** Next.js API Routes
+* **Database & Auth:** Supabase (PostgreSQL + Auth + Storage)
+* **AI:** Groq API (Llama 3.1 model)
+* **Charts:** Recharts
+* **Drag & Drop:** dnd-kit
+
+---
+
+## ⚡ Key Highlights
+
+* Built as a **SaaS product with real-world workflow**
+* AI integration for resume analysis and ATS scoring
+* Kanban-based job tracking with drag-and-drop
+* Secure authentication with Supabase SSR
+* Scalable and production-ready architecture
+
+---
+
+## 📂 Core Modules
+
+* 📊 Dashboard (KPIs + recent activity)
+* 📌 Applications (Kanban board)
+* 📄 AI Resume Scorer
+* 📅 Interview Scheduler
+* 📈 Analytics
+* ⚙️ Settings
+
+---
+
+## ▶️ Run Locally
 
 ```bash
+git clone https://github.com/Vinayak-45-lazy/Job-Application-Tracker-SaaS
+cd Job-Application-Tracker-SaaS
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+App runs at: http://localhost:3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🔐 Environment Variables
 
-## Learn More
+Create a `.env.local` file:
 
-To learn more about Next.js, take a look at the following resources:
+```env
+NEXT_PUBLIC_SUPABASE_URL=your_url
+NEXT_PUBLIC_SUPABASE_ANON_KEY=your_key
+GROQ_API_KEY=your_api_key
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📌 Use Case
 
-## Deploy on Vercel
+* Helps job seekers organize and track applications
+* Provides AI insights to improve resume quality
+* Simulates real-world hiring pipeline workflow
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👨‍💻 Author
+
+**Vinayak G Sanamani**
+Full Stack Developer | DevOps & AWS Enthusiast
+
+---
