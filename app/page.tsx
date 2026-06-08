@@ -21,7 +21,7 @@ export default function LandingPage() {
           <div className="p-2 rounded-xl bg-gradient-to-tr from-violet-600 to-cyan-500 shadow-md shadow-violet-500/10">
             <BriefcaseBusiness className="h-5 w-5 text-white" />
           </div>
-          <span className="text-xl font-bold tracking-tight text-white">CareerPath</span>
+          <span className="text-xl font-bold tracking-tight text-white">Zentrivo</span>
         </div>
         <div className="flex items-center gap-4">
           <Link href="/login" className="text-sm font-medium text-slate-400 hover:text-white transition-colors">
@@ -122,9 +122,9 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
             <BriefcaseBusiness className="h-4 w-4 text-violet-500" />
-            <span className="font-semibold text-slate-400">CareerPath</span>
+            <span className="font-semibold text-slate-400">Zentrivo</span>
           </div>
-          <p>© 2026 CareerPath SaaS. Built with Next.js 15, Supabase and Groq AI.</p>
+          <p>© 2026 Zentrivo Built with Next.js 15, Supabase and Groq AI.</p>
         </div>
       </footer>
     </div>
